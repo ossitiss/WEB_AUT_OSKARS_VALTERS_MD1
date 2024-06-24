@@ -8,10 +8,9 @@ describe("MD1", () => {
 
     it("Grid", () => {
 
-      //grid poga
+      //grid
       SelectablePage.selectGrid.click();
 
-      //skaitli - 2,4,6,8
       SelectablePage.selectSquare("Two").click();
       SelectablePage.selectSquare("Four").click();
       SelectablePage.selectSquare("Six").click();
