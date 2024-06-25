@@ -1,9 +1,9 @@
-import { SelectablePage } from "../pageObjects/selectable.page";
+import { SelectablePage } from "../page.objects/selectable.page";
 
 describe("MD1", () => {
   context("Grid", () => {
     beforeEach(() => {
-      cy.visit();
+      cy.visit('https://demoqa.com/selectable');
     });
 
     it("Grid", () => {
